@@ -1,0 +1,22 @@
+{
+  "name": "kus-note",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd backend && npm install && cd ../frontend && npm install && npm run build && cd ..",
+    "start": "cd backend && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BKIlham/kus-note.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/BKIlham/kus-note/issues"
+  },
+  "homepage": "https://github.com/BKIlham/kus-note#readme"
+}
